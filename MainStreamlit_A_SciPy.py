@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from PIL import Image
 
-model = load_model(r'C:\Users\ASUS\Documents\PMDPM\Projek UAS PMDPM_A_SciPy\BestModel_MobileNet_SciPy.h5')
+model = load_model(r'BestModel_MobileNet_SciPy.h5')
 class_names = ['Merah', 'Kuning', 'Hijau']
 
 def classify_image(image_path):
